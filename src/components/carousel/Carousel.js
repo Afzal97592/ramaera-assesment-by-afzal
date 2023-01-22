@@ -58,7 +58,6 @@ const CarouselComponent = () => {
                  marginLeft:{lg:25,},
                  fontFamily:'Montserrat Alternates',
                  alignItems:{lg:'center'},
-                 marginTop:{lg:10}
             }}>RAMAERA INDUSTRIES</Typography>
             <Typography variant='p6'
             className='para'
