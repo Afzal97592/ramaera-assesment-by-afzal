@@ -43,7 +43,7 @@ const CarouselComponent = () => {
         <Box className='middle'
           sx={{
             alignItems:'center',
-            marginTop:{lg:0, md:10, xs:15},
+            marginTop:{lg:0, md:10, xs:8},
             marginLeft:3,
             marginRight:5,
             width:{lg:'100%', md:'100%', sx:'100%'},
@@ -70,100 +70,14 @@ const CarouselComponent = () => {
                 fontFamily:'Montserrat Alternates',
               }}
             >An incredible multi-industrial approach oriented towards financial independence, customer focus and serving the best quality to the people.
-            </Typography>
+            </Typography> <br/>
+            <button className='button'>Explore more</button>
         </Box>
         {/* <Box className='right'>
         </Box> */}
     </Box>
       </SwiperSlide>
 
-      <SwiperSlide>
-      <Box className='carouselContainer'>
-        <Box className='left'>
-          <TwitterIcon className='Icons' />
-          <InstagramIcon className='Icons' />
-          <FacebookIcon className='Icons' />
-        </Box>
-        <Box className='middle'
-          sx={{
-            alignItems:'center',
-            marginTop:{lg:0, md:10, xs:15},
-            marginLeft:3,
-            marginRight:5,
-            width:{lg:'100%', md:'100%', sx:'100%'},
-            height:{xs:'100%'}
-          }}
-        >
-            <Typography variant='h4' className='heading' sx={{
-                 fontSize:{lg:107, md:90, xs:50},
-                 fontWeight:600,
-                 width:{lg:'70%', md:'100%', xs:'100%'},
-                 height:{lg:250, md:250, xs:140},
-                 marginLeft:{lg:25,},
-                 fontFamily:'Montserrat Alternates',
-                 alignItems:{lg:'center'},
-                 marginTop:{lg:10}
-            }}>RAMAERA INDUSTRIES</Typography>
-            <Typography variant='p6'
-            className='para'
-              sx={{
-                color:'white',
-                fontSize:{lg:44, md:32, xs:22},
-                width:{lg:'50%', md:'90%', xs:'100%'},
-                margin:5,
-                fontFamily:'Montserrat Alternates',
-              }}
-            >An incredible multi-industrial approach oriented towards financial independence, customer focus and serving the best quality to the people.
-            </Typography>
-        </Box>
-        {/* <Box className='right'>
-        </Box> */}
-    </Box>
-      </SwiperSlide>
-
-      <SwiperSlide>
-      <Box className='carouselContainer'>
-        <Box className='left'>
-          <TwitterIcon className='Icons' />
-          <InstagramIcon className='Icons' />
-          <FacebookIcon className='Icons' />
-        </Box>
-        <Box className='middle'
-          sx={{
-            alignItems:'center',
-            marginTop:{lg:0, md:10, xs:15},
-            marginLeft:3,
-            marginRight:5,
-            width:{lg:'100%', md:'100%', sx:'100%'},
-            height:{xs:'100%'}
-          }}
-        >
-            <Typography variant='h4' className='heading' sx={{
-                 fontSize:{lg:107, md:90, xs:50},
-                 fontWeight:600,
-                 width:{lg:'70%', md:'100%', xs:'100%'},
-                 height:{lg:250, md:250, xs:140},
-                 marginLeft:{lg:25,},
-                 fontFamily:'Montserrat Alternates',
-                 alignItems:{lg:'center'},
-                 marginTop:{lg:10}
-            }}>RAMAERA INDUSTRIES</Typography>
-            <Typography variant='p6'
-            className='para'
-              sx={{
-                color:'white',
-                fontSize:{lg:44, md:32, xs:22},
-                width:{lg:'50%', md:'90%', xs:'100%'},
-                margin:5,
-                fontFamily:'Montserrat Alternates',
-              }}
-            >An incredible multi-industrial approach oriented towards financial independence, customer focus and serving the best quality to the people.
-            </Typography>
-        </Box>
-        {/* <Box className='right'>
-        </Box> */}
-    </Box>
-      </SwiperSlide>
          
     </Swiper>
   )
