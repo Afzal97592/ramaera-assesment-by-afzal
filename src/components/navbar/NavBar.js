@@ -27,11 +27,11 @@ const NavBar = () => {
         {active? <CloseIcon/> : <MenuIcon />}
       </button>
        <ul className={active? "nav-menu active" : "nav-menu"}>
-        <li>Home</li>
-        <li>Our Industries</li>
-        <li>Our Companies</li>
-        <li>Career</li>
-        <li>Contacts</li>
+        <li onClick={()=>setActive(!active)} >Home</li>
+        <li onClick={()=>setActive(!active)}>Our Industries</li>
+        <li onClick={()=>setActive(!active)}>Our Companies</li>
+        <li onClick={()=>setActive(!active)}>Career</li>
+        <li onClick={()=>setActive(!active)}>Contacts</li>
         {/* <li><SearchIcon style={{fontSize:37}} /></li> */}
        </ul>
      </div>
