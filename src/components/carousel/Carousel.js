@@ -36,9 +36,9 @@ const CarouselComponent = () => {
       <SwiperSlide>
       <Box className='carouselContainer'>
         <Box className='left'>
-          <TwitterIcon className='Icons' />
-          <InstagramIcon className='Icons' />
-          <FacebookIcon className='Icons' />
+          <TwitterIcon className='Icons' fontSize='large' />
+          <InstagramIcon className='Icons' fontSize='large' />
+          <FacebookIcon className='Icons' fontSize='large' />
         </Box>
         <Box className='middle'
           sx={{
@@ -80,9 +80,9 @@ const CarouselComponent = () => {
       <SwiperSlide>
       <Box className='carouselContainer'>
         <Box className='left'>
-          <TwitterIcon className='Icons' />
-          <InstagramIcon className='Icons' />
-          <FacebookIcon className='Icons' />
+        <TwitterIcon className='Icons' fontSize='large' />
+          <InstagramIcon className='Icons' fontSize='large' />
+          <FacebookIcon className='Icons' fontSize='large' />
         </Box>
         <Box className='middle'
           sx={{
@@ -102,7 +102,6 @@ const CarouselComponent = () => {
                  marginLeft:{lg:25,},
                  fontFamily:'Montserrat Alternates',
                  alignItems:{lg:'center'},
-                 marginTop:{lg:10}
             }}>RAMAERA INDUSTRIES</Typography>
             <Typography variant='p6'
             className='para'
@@ -125,9 +124,9 @@ const CarouselComponent = () => {
       <SwiperSlide>
       <Box className='carouselContainer'>
         <Box className='left'>
-          <TwitterIcon className='Icons' />
-          <InstagramIcon className='Icons' />
-          <FacebookIcon className='Icons' />
+        <TwitterIcon className='Icons' fontSize='large' />
+          <InstagramIcon className='Icons' fontSize='large' />
+          <FacebookIcon className='Icons' fontSize='large' />
         </Box>
         <Box className='middle'
           sx={{
@@ -147,7 +146,6 @@ const CarouselComponent = () => {
                  marginLeft:{lg:25,},
                  fontFamily:'Montserrat Alternates',
                  alignItems:{lg:'center'},
-                 marginTop:{lg:10}
             }}>RAMAERA INDUSTRIES</Typography>
             <Typography variant='p6'
             className='para'

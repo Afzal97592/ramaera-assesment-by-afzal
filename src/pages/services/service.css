@@ -44,7 +44,7 @@
     flex-direction: column;
     margin-top: -170px;
     margin-bottom: -170px;
-    margin-right: -30px;
+    /* margin-right: -30px; */
 }
 .rightTopContent{
     display: flex;
@@ -265,6 +265,7 @@
     /* margin-top: -170px;
     margin-bottom: -170px;
     margin-right: -30px; */
+    margin-left: 20px;
 }
 
 .rightTopContent{
